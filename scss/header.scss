@@ -1,0 +1,176 @@
+header {
+    width: auto;
+    height: 700px;
+    position: relative;
+    background: transparent url('./img/photo-1480714378408-67cf0d13bc1b.png') 0% 0% no-repeat padding-box;
+    background-size:cover;
+    background-position: center;
+
+        &::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(28, 28, 28, 0.63);
+    }
+}
+
+.h_block {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;  
+    margin-top: 70px;
+    margin-inline: 205px;
+    // padding-inline: 20px;
+    width: auto;
+    height: 639px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    font-family: Montserrat;
+}
+
+.intro {
+    width: 651px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.intro_brand {
+    height: 107.61px;
+    width: 246.74px;
+    background: transparent url('./img/cheshire-county-hygiene-services@2x.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+  
+}
+
+h1 {
+    width: 426px;
+}
+
+.line {
+    width: 84px;
+    height: 22px;
+    background: transparent url('./img/divider_white_u72.png') 0% 0% no-repeat padding-box;;
+}
+
+p {
+    font-size: 16;
+    opacity: 80%;
+}
+
+.dl_button {
+    width: 135px;
+    height: 32px;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.dl_button:hover{
+    cursor: url('./img/description-cursor-icon-with-shadow-32.png'), auto;
+}
+
+.sub_tab {
+    width: 360px;
+    height: 424.88px;
+    margin-top: 110px;
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 20px #00000029;
+    text-align: left;
+    font: normal normal 600 16px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    opacity: 1;
+    border-radius: 4px;
+}
+
+.details {
+    margin-inline: 45px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sub_info {
+    width: 260px;
+    height: auto;
+    color: #D8D8D8;
+    text-align: left;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #D8D8D8;
+    outline: none;
+    padding-left: 10px;
+}
+
+.radio label{
+        font-size: 9px;
+        text-align: center;
+        padding-inline-end: 10px;
+}
+
+input[type="radio"] {
+    appearance: none;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #41D395;
+	border-radius: 50%;
+	background-clip: content-box;
+	padding: 2px;
+    // opacity: 50%;
+}
+
+input[type="radio"]:checked {
+	background-color: #41D395;
+    // opacity: 100%;
+}
+
+.rcolor {
+    color: #E27866;
+    padding-inline: 5px;
+}
+
+.sub_top{
+    height: 57px;
+    width: auto;
+    font: normal normal 600 20px/24px Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: auto;
+    background-color: #F5F5F5;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.sub_bottom {
+    height: 57px;
+    width: auto;
+    font: normal normal 600 20px/24px Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    background-color: #41D395;
+    color: #FFFFFF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.sub_bottom:hover{
+    cursor: url('./img/description-cursor-icon-with-shadow-32.png'), auto;
+}
